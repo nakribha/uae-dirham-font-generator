@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Keep generated files and user-provided assets out of public Git by default.
+input/*
+output/*
+
+!input/.gitkeep
+!output/.gitkeep
